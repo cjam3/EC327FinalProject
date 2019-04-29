@@ -20,11 +20,11 @@ public class Obstacle implements GameObject {
                 || rectangle.contains(player.getRectangle().right, player.getRectangle().top)
                 || rectangle.contains(player.getRectangle().left, player.getRectangle().bottom)
                 || rectangle.contains(player.getRectangle().right, player.getRectangle().bottom)
-        return true;
+        return true; //true if the player hits the obstacle
         return false;
     }
 
-
+    //Drawing the obstacle with a color and shape
     @Override
     public void draw(Canvas canvas) {
         Paint paint = new Paint();
