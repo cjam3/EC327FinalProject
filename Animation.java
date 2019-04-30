@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.mgame;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
