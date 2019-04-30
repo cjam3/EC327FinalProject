@@ -1,7 +1,7 @@
 package com.example.myapplication;
 
 import android.graphics.Canvas;
-import android .graphics.Rect;
+import android.graphics.Rect;
 import android.graphics.Point;
 import android.graphics.Paint;
 
